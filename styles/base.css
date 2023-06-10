@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Space+Grotesk:wght@300&display=swap');
+
+body {
+    background-color: skyblue;
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.navigation ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-rows: 5em 10em 10em;
+    grid-template-columns: 100%;
+}
+
+main>h2 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+main>section:nth-of-type(1) {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    background-color: rgb(199, 199, 205);
+    border: 2px solid;
+    padding: 5px;
+}
+
+main>section:nth-of-type(2) {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    background-color: rgb(199, 199, 205);
+    border: 2px solid;
+    padding: 5px;
+}
+
+.card {
+    display: grid;
+}
