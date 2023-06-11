@@ -1,0 +1,8 @@
+@media (min-width: 500px) {
+    body {
+        background-color: rgb(141 184 201);
+        font-family: 'Petit Formal Script', 'Lora';
+        margin: 40px;
+        font-weight: bold;
+    }
+}
