@@ -39,4 +39,9 @@
         border: 2px solid;
         padding: 10px;
     }
+
+    .img-profile-picture {
+        width: 200px;
+        height: 200px;
+    }
 }
