@@ -18,12 +18,14 @@ Main site for adding University homeworks." />
 
 <body>
     <header>
-
-        <img class="img-profile-picture" src=" ./images/profile.jpg" alt="profile_picture">
+        <img class="img-profile-picture" src="images/profile.jpg" alt="profile_picture">
         <h1>Manuel Flores</h1>
+        <img class="btn-dark-mode" src="images/btn-open-dark-mode.png" onclick="toggleDarkMode()"
+            alt="dark-mode-button"></img>
     </header>
     <nav class="navigation">
-        <ol>
+        <img class="btn-hamburguer-menu" src="images/btn-open-menu.png" onclick="toggleMenu()" alt="menu-button"></img>
+        <ol class="nav-sites">
             <li><a href="#">Home</a></li>
             <li><a href="./week01/chamber-site-plan.html">Chamber</a></li>
             <li>Site Plan</li>
@@ -31,15 +33,16 @@ Main site for adding University homeworks." />
         </ol>
     </nav>
     <main>
+
         <h2>WDD 230: Web Frontend Development</h2>
-        <section class="card">
+        <section id="card-1" class="card">
             <h3>Learning Activities</h3>
             <ul>
                 <li><a href=" #">Learning activity 1</a></li>
             </ul>
         </section>
 
-        <section class="card">
+        <section id="card-2" class="card">
             <h3>Information</h3>
             <div>weather</div>
             <div>Number of visits to the page</div>
