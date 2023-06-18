@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+/* CSS for mobile biew*/
+
+body {
+    font-family: 'Lora', 'Petit Formal Script';
+    background-color: rgb(141 184 201);
+    margin: 40px;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.img-footer {
+    width: 50%;
+}
+
+.btn-hamburguer-menu {
+    visibility: visible;
+}
+
+.nav-sites {
+    visibility: visible;
+}
+
+.img-landing {
+    width: 100%;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* CSS for desktop biew*/
+@media (min-width: 500px) {
+
+    body {
+        background-color: rgb(112, 213, 112);
+        font-family: 'Petit Formal Script', 'Lora';
+        margin: 40px;
+        font-weight: bold;
+    }
+
+    h2 {
+        text-align: left;
+    }
+
+    .img-landing {
+        width: 100%;
+        margin: 40px;
+    }
+
+
+    .main-header {
+        text-align: center;
+    }
+
+    .btn-hamburguer-menu {
+        visibility: hidden;
+    }
+
+    .nav-sites {
+        visibility: visible;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .li-home {
+        grid-row: 1 / 2;
+        grid-column: 1/ 2;
+    }
+
+    .li-discover {
+        grid-row: 1 / 2;
+        grid-column: 2/ 3;
+    }
+
+    .li-directory {
+        grid-row: 1 / 2;
+        grid-column: 3/ 4;
+    }
+
+    .li-join {
+        grid-row: 1 / 2;
+        grid-column: 4/ 5;
+    }
+
+    .img-footer {
+        width: 50%;
+    }
+
+}
