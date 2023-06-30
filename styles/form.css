@@ -1,0 +1,14 @@
+:root {
+    --light_green: rgb(145, 206, 145);
+    --dark_blue: rgb(11, 98, 125);
+    --light_red: rgb(230, 99, 70);
+}
+
+body {
+    background-color: var(--light_green);
+    color: var(--dark_blue);
+}
+
+#submit {
+    background-color: var(--light_red);
+}
