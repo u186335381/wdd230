@@ -19,10 +19,11 @@ Main site for adding University homeworks." />
 <body>
     <header>
         <picture>
-            <source srcset="images/temple-wide.jpg" media="(max-width: 960px)" />
-            <source srcset="images/temple-narrow.jpg" media="(max-width: 400px)" />
+            <source srcset="images/temple-wide.jpg" media="(min-width: 960px)" />
+            <source srcset="images/temple-narrow.jpg" media="(min-width: 400px)" />
             <img class="img-temple" alt="temple-narrow" />
         </picture>
+        <div class="herolabel">Tokio Japan Temple</div>
         <img class="img-profile-picture" src="images/profile.jpg" alt="profile_picture">
         <h1>Manuel Flores</h1>
         <img class="btn-dark-mode" src="images/btn-open-dark-mode.png" onclick="toggleDarkMode()"
@@ -46,13 +47,17 @@ Main site for adding University homeworks." />
                 <li><a href=" #">Learning activity 1</a></li>
             </ul>
         </section>
-
         <section id="card-2" class="card">
             <h3>Information</h3>
             <div>weather</div>
-            <div>Number of visits to the page</div>
+            <div>Number of visits to the page: <span class="visits"></span></div>
         </section>
-
+        <section>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107019.21608275703!2d-71.61268852400039!3d-33.04723798910425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dde3de20cec7%3A0xeb0a3a8cbfe19b76!2sValpara%C3%ADso!5e0!3m2!1sen!2scl!4v1688239722531!5m2!1sen!2scl"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </main>
     <footer>
         <p id="p_copyright_and_information">&copy;{year}.

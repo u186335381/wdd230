@@ -57,6 +57,15 @@ main>section:nth-of-type(2) {
     width: 100%;
 }
 
+.herolabel {
+    min-width: 310px;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    color: white;
+    font-size: 2em;
+}
+
 .btn-hamburguer-menu {
     visibility: visible;
     width: 40px;

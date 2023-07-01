@@ -1,11 +1,15 @@
-const updateCurrentYearFooter = () => {
-    const pCopyright = document.getElementById("p_copyright_and_information")
-    pCopyright.innerHTML = pCopyright.innerHTML.replace("{year}", new Date().getFullYear())
-}
+document.addEventListener("DOMContentLoaded", updateVisitsCounter)
 
-const updateLastModifiedFooter = () => {
-    const pLastModified = document.getElementById("lastModified")
-    pLastModified.innerHTML = pLastModified.innerHTML.replace("{lastModification}", new Intl.DateTimeFormat('en-US', { dateStyle: 'short', timeStyle: 'short', timeZone: 'UTC' }).format(new Date()))
+function updateVisitsCounter() {
+    const visits = document.querySelector(".visits")
+    amountOfVisits = window.localStorage.getItem("amountOfVisits")
+    if (amountOfVisits) {
+        amountOfVisits++
+    } else {
+        amountOfVisits = 1
+    }
+    localStorage.setItem("amountOfVisits", Number(amountOfVisits))
+    visits.textContent = amountOfVisits
 }
 
 const toggleMenu = () => {
@@ -39,6 +43,16 @@ const toggleDarkMode = () => {
         card2.style.backgroundColor = 'black'
     }
 
+}
+
+const updateCurrentYearFooter = () => {
+    const pCopyright = document.getElementById("p_copyright_and_information")
+    pCopyright.innerHTML = pCopyright.innerHTML.replace("{year}", new Date().getFullYear())
+}
+
+const updateLastModifiedFooter = () => {
+    const pLastModified = document.getElementById("lastModified")
+    pLastModified.innerHTML = pLastModified.innerHTML.replace("{lastModification}", new Intl.DateTimeFormat('en-US', { dateStyle: 'short', timeStyle: 'short', timeZone: 'UTC' }).format(new Date()))
 }
 
 updateCurrentYearFooter()
