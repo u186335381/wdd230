@@ -2,6 +2,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
 
 /* CSS for mobile biew*/
+.grid-main-content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(9, 1fr);
+    border: double;
+
+}
+
+.sidebar-content-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    border: double;
+    text-align: center;
+}
+
+.sidebar-content-2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border: double;
+    text-align: center;
+}
+
+.sidebar-content-3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    border: double;
+    text-align: center;
+}
+
+.sidebar-content-4 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    border: double;
+    text-align: center;
+}
+
+.sidebar-content-5 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    border: double;
+    text-align: center;
+}
+
+.sidebar-content-6 {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    border: double;
+    text-align: center;
+}
+
+.sidebar-content-7 {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+    border: double;
+    text-align: center;
+}
+
+.sidebar-content-8 {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+    border: double;
+    text-align: center;
+}
+
+.sidebar-content-9 {
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+    border: double;
+    text-align: center;
+}
+
+.sidebar-content-images {
+    grid-column: 2 / 3;
+    grid-row: 1 / 10;
+    border: double;
+}
+
+.img-sidebar {
+    width: 90%;
+    margin: 5%;
+}
+
 
 body {
     font-family: 'Lora', 'Petit Formal Script';
@@ -30,6 +112,8 @@ body {
     margin: 10px;
 }
 
+
+
 h2 {
     text-align: center;
 }
@@ -42,6 +126,10 @@ h2 {
         font-family: 'Petit Formal Script', 'Lora';
         margin: 40px;
         font-weight: bold;
+    }
+
+    .sidebar-content-images:hover {
+        background-color: red;
     }
 
     h2 {
