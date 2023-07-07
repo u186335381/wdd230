@@ -6,6 +6,10 @@ body {
     font-family: 'Space Grotesk', sans-serif;
 }
 
+.weather{
+    
+}
+
 .navigation ol {
     display: flex;
     flex-direction: column;

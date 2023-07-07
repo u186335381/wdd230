@@ -1,5 +1,12 @@
 document.addEventListener("DOMContentLoaded", updateVisitsCounter)
 
+async function getWeather() {
+    const body = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=4a8dfd912f7300f5b84fbba2ec797ee8')
+    const data = await body.json()
+    const element = document.querySelector(".weather")
+    element.textContent = `${data.main.temp}°? ${data.weather[0].main}`
+}
+
 function updateVisitsCounter() {
     const visits = document.querySelector(".visits")
     amountOfVisits = window.localStorage.getItem("amountOfVisits")
@@ -57,3 +64,4 @@ const updateLastModifiedFooter = () => {
 
 updateCurrentYearFooter()
 updateLastModifiedFooter()
+getWeather()
