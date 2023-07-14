@@ -16,7 +16,7 @@ function updateVisitsCounter() {
         amountOfVisits = 1
     }
     localStorage.setItem("amountOfVisits", Number(amountOfVisits))
-    visits.textContent = amountOfVisits
+    visits.textContent = `${amountOfVisits}`
 }
 
 const toggleMenu = () => {

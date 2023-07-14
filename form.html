@@ -6,19 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Manuel Flores" />
-    <meta name="description" content="WDD 230" />
-    <title>WDD 230</title>
-    <link href=" styles/form.css" rel="stylesheet">
+    <meta name="description" content="WDD 230 - Web Frontend Development
+    Manuel Armando Flores Yáñez
+    course assignment portal
+Main site for adding University homeworks." />
+    <title>Manuel Flores - WDD 230 - Web Frontend Development</title>
+    <link href=" styles/base.css" rel="stylesheet">
+    <link href=" styles/larger.css" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico" />
 </head>
 
 <body>
     <header>
         <picture>
-            <source srcset="images/temple-wide.jpg" media="(max-width: 960px)" />
-            <source srcset="images/temple-narrow.jpg" media="(max-width: 400px)" />
+            <source srcset="images/temple-wide.jpg" media="(min-width: 960px)" />
+            <source srcset="images/temple-narrow.jpg" media="(min-width: 400px)" />
             <img class="img-temple" alt="temple-narrow" />
         </picture>
+        <div class="herolabel">Tokio Japan Temple</div>
         <img class="img-profile-picture" src="images/profile.jpg" alt="profile_picture">
         <h1>Manuel Flores</h1>
         <img class="btn-dark-mode" src="images/btn-open-dark-mode.png" onclick="toggleDarkMode()"
@@ -37,17 +42,18 @@
         <form method="get" action="record.html">
             <div id="form_message"></div>
             <label for="username">Username</label>
-            <input type="text" id="username" name="username" required />
+            <input type="text" id="username" name="username" required>
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" pattern="[1-9a-zA-Z]{8}" required />
+            <input type="password" id="password" name="password" pattern="[0-9a-zA-Z]{8}" required>
             <label for="repeat_password">Repeat password</label>
-            <input type="password" id="repeat_password" name="repeat_password" pattern="[1-9a-zA-Z]{8}" required />
+            <input type="password" id="repeat_password" name="repeat_password" pattern="[0-9a-zA-Z]{8}" required>
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required />
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@"
+                title="Please enter a valid email address" required>
             <label for="page_rating">Page rating</label>
             <div id="complete_range">1</div>
             <input type="range" id="page_rating" name="page_rating" min="1" max="10" value="1" list="complete_range"
-                step="1" required />
+                step="1" required>
             <datalist id="complete_range">
                 <option value="1">1</option>
                 <option value="2">2</option>

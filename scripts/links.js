@@ -7,7 +7,12 @@ async function getLinks() {
     const data = await body.json()
     console.log(data)
     const element = document.querySelector("#card-1")
-    element.innerHTML = data.weeks.map(week => `<li>${week}` + week.link.map(e => `<a href="${e.url}">${e.title}</a> |`))
+    element.innerHTML = `
+    <section id="card-1" class="card"><h3>Learning Activities</h3><ul>` +
+        data.weeks.map(week =>
+            `<li>${week}` + week.link.map(e => `<a href="${e.url}">${e.title}</a> |`)) +
+        `</ul>
+    </section>`
 }
 
 
