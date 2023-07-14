@@ -1,10 +1,12 @@
 document.addEventListener("DOMContentLoaded", updateVisitsCounter)
 
 async function getWeather() {
-    const body = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=4a8dfd912f7300f5b84fbba2ec797ee8')
+    const body = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Valparaiso&appid=4a8dfd912f7300f5b84fbba2ec797ee8&units=imperial')
     const data = await body.json()
     const element = document.querySelector(".weather")
-    element.textContent = `${data.main.temp}°? ${data.weather[0].main}`
+    element.textContent = `${data.main.temp}°°F - ${data.weather[0].description}`
+    const imgWeather = document.querySelector('.weather-icon')
+    imgWeather.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`
 }
 
 function updateVisitsCounter() {
