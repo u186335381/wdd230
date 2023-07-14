@@ -9,7 +9,7 @@ rangeRating.addEventListener("input", updateRangeCounter)
 
 function updateRangeCounter() {
     const rangeRating = document.querySelector("#page_rating")
-    const divRangeText = document.querySelector("#complete_range")
+    const divRangeText = document.querySelector("#complete_range_text")
     divRangeText.textContent = rangeRating.value
 }
 
