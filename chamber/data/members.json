@@ -5,7 +5,7 @@
       "address": "Av. San Martín 555 Local 35-36, Valparaiso",
       "phone": "+56965898545",
       "websiteURL": "https://banco.santander.cl",
-      "imageFileName": "images/member-santander.png",
+      "imageFileName": "member-santander.png",
       "membershipLevel": "Gold"
     },
     {
@@ -13,7 +13,7 @@
       "address": "Avenida Libertador Bernardo O'Higgins N° 1111, Valparaiso",
       "phone": "+56956585951",
       "websiteURL": "https://www.bancoestado.cl",
-      "imageFileName": "images/member-estado.png",
+      "imageFileName": "member-estado.png",
       "membershipLevel": "Silver"
     },
     {
@@ -21,7 +21,7 @@
       "address": "Avenida Pedro de Valdivia 1211, Valparaiso",
       "phone": "+56925248745",
       "websiteURL": "https://banco.itau.cl",
-      "imageFileName": "images/member-itau.png",
+      "imageFileName": "member-itau.png",
       "membershipLevel": "Gold"
     },
     {
@@ -29,7 +29,7 @@
       "address": "Avenida San Diego 5455, Valparaiso",
       "phone": "+56936323956",
       "websiteURL": "https://www.bancofalabella.cl",
-      "imageFileName": "images/member-falabella.png",
+      "imageFileName": "member-falabella.png",
       "membershipLevel": "NP"
     },
     {
@@ -37,7 +37,7 @@
       "address": "Avenida Costanera 4498, Valparaiso",
       "phone": "+5693332363",
       "websiteURL": "https://portales.bancochile.cl",
-      "imageFileName": "images/member-chile.png",
+      "imageFileName": "member-chile.png",
       "membershipLevel": "Bronze"
     },
     {
@@ -45,7 +45,7 @@
       "address": "Avenida Las Castañas 8988, Valparaiso",
       "phone": "+56936878745",
       "websiteURL": "https://nueva.afpmodelo.cl",
-      "imageFileName": "images/member-modelo.png",
+      "imageFileName": "member-modelo.png",
       "membershipLevel": "Gold"
     },
     {
@@ -53,7 +53,7 @@
       "address": "Avenida Portugales 3423, Valparaiso",
       "phone": "+56999898962",
       "websiteURL": "https://www6.cuprum.cl",
-      "imageFileName": "images/member-cuprum.png",
+      "imageFileName": "member-cuprum.png",
       "membershipLevel": "Silver"
     }
   ]
