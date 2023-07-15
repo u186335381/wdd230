@@ -180,3 +180,40 @@ label {
     width: 100px;
 }
 
+
+
+.members-section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #eee;
+}
+
+.article-grid img {
+    height: 75px;
+    max-width: 100%;
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.article-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    min-height: 384px;
+}
+
+.article-list section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.article-list img {
+    display: none;
+}
