@@ -28,50 +28,35 @@
     </nav>
     <main>
         <section>
-            <img class="img-landing" src="images/landing.jpg" />
-            <a href="">Join the Valparaiso chamber of commerse now!</a>
-            <p>The Valparaiso Chamber of Commerce serves as a gathering place for local businesses and companies who
-                desire
-                to increase their profit and reduce losses by gathering ideas to combat the increased burglaries and
-                robberies of the area, to request the government for increased security to maintain their business
-                safe.
-                Also, they help one another with counseling to know that skills are most required to run a business,
-                so
-                that
-                every business owner knows what knowledge could be most helpful to increase sales and reduce cost.
-            </p>
-        </section>
-        <section>
-            <form method="get" action="record.html">
+            <form method="get" action="thankyou.html">
                 <div id="form_message"></div>
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" required></br>
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" pattern="[0-9a-zA-Z]{8}" required></br>
-                <label for="repeat_password">Repeat password</label>
-                <input type="password" id="repeat_password" name="repeat_password" pattern="[0-9a-zA-Z]{8}"
+                <label for="first_name">First name</label>
+                <input type="text" id="first_name" name="first_name" required></br>
+                <label for="last_name">Last name</label>
+                <input type="text" id="first_name" name="first_name" required></br>
+                <label for="position">Position</label>
+                <input type="text" id="position" name="position" pattern="[0-9a-zA-Z-\s]{7,}" required></br>
+                <label for="email">Email address</label>
+                <input type="email" id="email_address" name="email_address" pattern="[a-zA-Z0-9._%+-]+@"
+                    placeholder="example@domain.com" required></br>
+                <label for="mobile_phone_number">Mobile Phone Number</label>
+                <input type="tel" id="mobile_phone_number" name="mobile_phone_number" required></br>
+                <label for="membership_level">Membership level</label>
+                <div id="membership_level_text">1</div>
+                <input type="range" id="membership_level" name="membership_level" value="NP Membership"
+                    list="membership_level_list">
+                <datalist id="membership_level_list">
+                    <option value="NP Membership">NP Membership</option>
+                    <option value="Bronze Membership">Bronze Membership</option>
+                    <option value="Silver Membership">Silver Membership</option>
+                    <option value="Gold Membership">Gold Membership</option>
+                </datalist></br>
+                <label for="business_organization_description">Business organization's description</label>
+                <input type="text" id="business_organization_description" name="business_organization_description"
                     required></br>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@"
-                    title="Please enter a valid email address" required></br>
-                <label for="page_rating">Page rating</label>
-                <div id="complete_range_text">1</div>
-                <input type="range" id="page_rating" name="page_rating" min="1" max="10" value="1" list="complete_range"
-                    step="1">
-                <datalist id="complete_range">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                </datalist>
                 <label for="submit">Submit</label>
-                <input type="submit" id="submit" name="submit">
+                <input type="submit" id="submit" name="submit"></br>
+                <input type="hidden" id="timestamp" name="timestamp">
             </form>
         </section>
     </main>
