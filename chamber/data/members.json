@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Banco Santander",
+    "address": "Av. San Martín 555 Local 35-36, Valparaiso",
+    "phone number": "+56965898545",
+    "website URL": "https://banco.santander.cl/",
+    "imageFileName": "",
+    "membershipLevel": "Gold"
+  },
+  {
+    "name": "Banco Estado",
+    "address": "Avenida Libertador Bernardo O'Higgins N° 1111, Valparaiso",
+    "phone number": "+56956585951",
+    "website URL": "https://www.bancoestado.cl/",
+    "image": "",
+    "membershipLevel": "Silver"
+  },
+  {
+    "name": "Banco ITAU",
+    "address": "Avenida Pedro de Valdivia 1211, Valparaiso",
+    "phone number": "+56925248745",
+    "website URL": "https://banco.itau.cl/",
+    "image": "",
+    "membershipLevel": "Gold"
+  },
+  {
+    "name": "Banco Falabella",
+    "address": "Avenida San Diego 5455, Valparaiso",
+    "phone number": "+56936323956",
+    "website URL": "https://www.bancofalabella.cl/",
+    "image": "",
+    "membershipLevel": "NP"
+  },
+  {
+    "name": "Banco de Chile",
+    "address": "Avenida Costanera 4498, Valparaiso",
+    "phone number": "+5693332363",
+    "website URL": "https://portales.bancochile.cl/",
+    "image": "",
+    "membershipLevel": "Bronze"
+  },
+  {
+    "name": "AFP Modelo",
+    "address": "Avenida Las Castañas 8988, Valparaiso",
+    "phone number": "+56936878745",
+    "website URL": "https://nueva.afpmodelo.cl/",
+    "image": "",
+    "membershipLevel": "Gold"
+  },
+  {
+    "name": "AFP Cuprum",
+    "address": "Avenida Portugales 3423, Valparaiso",
+    "phone number": "+56999898962",
+    "website URL": "https://www6.cuprum.cl/",
+    "image": "",
+    "membershipLevel": "Silver"
+  }
+]
