@@ -42,37 +42,37 @@
             </p>
         </section>
         <section>
-            <h2>Scenarios</h2>
-            <p>What are some of the main plans the Valparaiso Chamber of Commerce is recommending the government to
-                carry
-                out?</p>
-            <p>Where are the dates of attendance to the Valparaiso Chamber of Commerce?</p>
-            <p>What are the benefits of being a member of the Valparaiso Chamber of Commerce?</p>
-        </section>
-        <section>
-            <h2>Out Meetings</h2>
-            <img class="img-landing" src="images/meeting-1.jpg" />
-            <img class="img-landing" src="images/meeting-2.jpg" />
-            <img class="img-landing" src="images/meeting-3.jpg" />
-        </section>
-        <section>
-            <h2>Current events</h2>
-            <p>We met yesterday at Valparaiso and talked about our many interests, the meeting was great</p>
-            <p>We sent a letter to the government making mention of our struggles agains robberies, and they were very
-                concerned about it.</p>
-            <p>We shared some ideas with the youth to know what skills are more demanded in Valpariso and how to better
-                prepare.</p>
-        </section>
-        <section>
-            <h2>Weather</h2>
-            <p>The weather today is 20°F at Valparaiso, Chile</p>
-        </section>
-        <section>
-            <h2>Advertisements</h2>
-            <p>Join our free courses to learn more about the most demanded skills, and pay later for a certificate from
-                this chamber of commerce.</p>
-            <p>Join the chamber for a special price this summer.</p>
-
+            <form method="get" action="record.html">
+                <div id="form_message"></div>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required></br>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" pattern="[0-9a-zA-Z]{8}" required></br>
+                <label for="repeat_password">Repeat password</label>
+                <input type="password" id="repeat_password" name="repeat_password" pattern="[0-9a-zA-Z]{8}"
+                    required></br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@"
+                    title="Please enter a valid email address" required></br>
+                <label for="page_rating">Page rating</label>
+                <div id="complete_range_text">1</div>
+                <input type="range" id="page_rating" name="page_rating" min="1" max="10" value="1" list="complete_range"
+                    step="1">
+                <datalist id="complete_range">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                <label for="submit">Submit</label>
+                <input type="submit" id="submit" name="submit">
+            </form>
         </section>
     </main>
     <footer>
