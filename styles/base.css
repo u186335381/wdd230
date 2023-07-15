@@ -47,7 +47,7 @@ main>section:nth-of-type(2) {
 .card {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 50px 1fr;
 }
 
 .weather-title {
@@ -98,4 +98,9 @@ main>section:nth-of-type(2) {
 
 .weather-icon {
     width: 40px
+}
+
+
+.activities {
+    font-size: 60%;
 }

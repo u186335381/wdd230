@@ -4,6 +4,10 @@
         background-color: rgb(151, 212, 134);
     }
 
+    .activities {
+        font-size: 60%;
+    }
+
     .navigation ol {
         display: flex;
         justify-content: space-around;
@@ -56,6 +60,14 @@
 
     .nav-sites {
         visibility: visible;
+    }
+
+}
+
+
+@media (min-width: 920px) {
+    .activities {
+        font-size: 100%;
     }
 
 }

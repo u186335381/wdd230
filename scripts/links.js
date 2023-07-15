@@ -12,11 +12,7 @@ function displayLinks(weeks) {
     const element = document.querySelector("#card-1")
     element.innerHTML = `
     <section id="card-1" class="card"><h3>Learning Activities</h3><ul>` +
-        weeks.weeks.map(week =>
-            `<li>${week.week}: ` + week.links.map(e => `<a href="${e.url}">${e.title}</a> |`)) +
-        `</ul>
-    </section>`
+        weeks.weeks.map(week => `<li class='activities'>${week.week}: ` + week.links.map(e => ` <a href="${e.url}">${e.title}</a>`).join('')).join('') + `</ul></section>`
 }
-
 
 getLinks()

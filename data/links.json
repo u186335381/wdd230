@@ -4,12 +4,12 @@
       "week": "Week 01",
       "links": [
         {
-          "url": "week01/1.html",
-          "title": "Activity-1"
+          "url": "week01/holygrail.html",
+          "title": "Grail"
         },
         {
-          "url": "week01/2.html",
-          "title": "Activity-2"
+          "url": "week01/media-query.html",
+          "title": "Media Query"
         }
       ]
     },
@@ -17,12 +17,16 @@
       "week": "Week 02",
       "links": [
         {
-          "url": "week02/1.html",
-          "title": "Activity-1"
+          "url": "week02/design.html",
+          "title": "Design"
         },
         {
-          "url": "week02/2.html",
-          "title": "Activity-2"
+          "url": "week02/menu.html",
+          "title": "Menu"
+        },
+        {
+          "url": "week02/bom.html",
+          "title": "BOM-25"
         }
       ]
     },
@@ -30,12 +34,20 @@
       "week": "Week 03",
       "links": [
         {
-          "url": "week03/1.html",
-          "title": "Activity-1"
+          "url": "week03/webp.html",
+          "title": "WebP"
         },
         {
-          "url": "week03/2.html",
-          "title": "Activity-2"
+          "url": "week03/lazyload.html",
+          "title": "Lazy"
+        },
+        {
+          "url": "week03/reponsive-images.html",
+          "title": "srcset"
+        },
+        {
+          "url": "week03/localstorage.html",
+          "title": "localStorage"
         }
       ]
     },
@@ -43,12 +55,20 @@
       "week": "Week 04",
       "links": [
         {
-          "url": "week04/1.html",
-          "title": "Activity-1"
+          "url": "week04/css-classes.html",
+          "title": "CSS Pseudo-Classes"
         },
         {
-          "url": "week04/2.html",
-          "title": "Activity-2"
+          "url": "week04/css-combinators.html",
+          "title": "CSS Combinators"
+        },
+        {
+          "url": "week04/tablebuild.html",
+          "title": "HTML Tables"
+        },
+        {
+          "url": "week04/forms.html",
+          "title": "HTML Forms"
         }
       ]
     },
@@ -56,12 +76,20 @@
       "week": "Week 05",
       "links": [
         {
-          "url": "week05/1.html",
-          "title": "Activity-1"
+          "url": "week05/css-pseudo-elements.html",
+          "title": "CSS Pseudo-Elements"
         },
         {
-          "url": "week05/2.html",
-          "title": "Activity-2"
+          "url": "week05/new-ward-members.json",
+          "title": "JSON"
+        },
+        {
+          "url": "week05/prophets.html",
+          "title": "Fetch API"
+        },
+        {
+          "url": "week05/weather.html",
+          "title": "Consuming a Third-Party API Service"
         }
       ]
     }
