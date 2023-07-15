@@ -14,7 +14,6 @@
 
 <body>
     <header>
-        <img class="" src="" alt="">
         <h1 class="main-header">Valparaiso Chamber of commerce</h1>
     </header>
     <nav>
@@ -26,38 +25,56 @@
             <li class="li-join"><a href="join.html">Join</a></li>
         </ul>
     </nav>
-    <main>
-        <section>
-            <form method="get" action="thankyou.html">
+    <main class="join-main-content">
+        <section class="join-form-section">
+            <form id="join-form" method="get" action="thankyou.html">
                 <div id="form_message"></div>
                 <label for="first_name">First name</label>
                 <input type="text" id="first_name" name="first_name" required></br>
                 <label for="last_name">Last name</label>
                 <input type="text" id="first_name" name="first_name" required></br>
                 <label for="position">Position</label>
-                <input type="text" id="position" name="position" pattern="[0-9a-zA-Z-\s]{7,}" required></br>
+                <input type="text" id="position" name="position" pattern="[a-zA-Z\-\\\s]{7,}"></br>
                 <label for="email">Email address</label>
                 <input type="email" id="email_address" name="email_address" pattern="[a-zA-Z0-9._%+-]+@"
                     placeholder="example@domain.com" required></br>
                 <label for="mobile_phone_number">Mobile Phone Number</label>
                 <input type="tel" id="mobile_phone_number" name="mobile_phone_number" required></br>
-                <label for="membership_level">Membership level</label>
-                <div id="membership_level_text">1</div>
-                <input type="range" id="membership_level" name="membership_level" value="NP Membership"
-                    list="membership_level_list">
-                <datalist id="membership_level_list">
-                    <option value="NP Membership">NP Membership</option>
-                    <option value="Bronze Membership">Bronze Membership</option>
-                    <option value="Silver Membership">Silver Membership</option>
-                    <option value="Gold Membership">Gold Membership</option>
-                </datalist></br>
+                <fieldset id="fieldset_membership" name="fieldset_membership" class="radio-membership">
+                    <legend>Membership level</legend>
+                    <div>
+                        <input type="radio" id="np_membership" name="np_membership" value="NP Membership" checked>
+                        <label for="np_membership">NP Membership</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="bronze_membership" name="bronze_membership" value="Bronze Membership">
+                        <label for="bronze_membership">Bronze Membership</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="silver_membership" name="silver_membership" value="Silver Membership">
+                        <label for="silver_membership">Silver Membership</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="gold_membership" name="gold_membership" value="Gold Membership">
+                        <label for="gold_membership">Gold Membership</label>
+                    </div>
+                </fieldset>
+                </br>
                 <label for="business_organization_description">Business organization's description</label>
-                <input type="text" id="business_organization_description" name="business_organization_description"
-                    required></br>
+                <textarea form="join-form" id="business_organization_description"
+                    name="business_organization_description" rows="5" cols="33" placeholder="My company is ..."
+                    required></textarea></br>
                 <label for="submit">Submit</label>
                 <input type="submit" id="submit" name="submit"></br>
                 <input type="hidden" id="timestamp" name="timestamp">
             </form>
+        </section>
+        <section class="join-description-section">
+            <h3>Membership level benefits</h3>
+            <h4 class="membership-name">Gold Membership</h4>
+            <p class="membership-benefit">There is no fee if you are a non profit organization! You can attend all our
+                networking and learning events, including a free pass for training in how to be better prepared for that
+                future job of yours. Qe can even mention your name in the chamber site!</p>
         </section>
     </main>
     <footer>
@@ -70,7 +87,7 @@
             Last modification:{lastModification}
         </p>
     </footer>
-    <script src="scripts/chamber.js"></script>
+    <script src="scripts/form.js"></script>
 </body>
 
 </html>

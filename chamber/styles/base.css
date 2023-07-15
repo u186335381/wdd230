@@ -118,6 +118,25 @@ h2 {
     text-align: center;
 }
 
+
+.join-main-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.join-form-section {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+
+.join-description-section {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+
 /* CSS for desktop biew*/
 @media (min-width: 500px) {
 
