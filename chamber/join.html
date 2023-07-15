@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Manuel Flores" />
-    <meta name="description" content="Valparaiso Chamber of Commerce." />
+    <meta name="author" content="Manuel Flores">
+    <meta name="description" content="Valparaiso Chamber of Commerce.">
     <title>Valparaiso Chamber of Commerce.</title>
     <link href="styles/base.css" rel="stylesheet">
-    <link rel="icon" href="images/favicon.ico" />
+    <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <h1 class="main-header">Valparaiso Chamber of commerce</h1>
     </header>
     <nav>
-        <img class="btn-hamburguer-menu" src="images/btn-close-menu.png" onclick="toggleMenu()" alt="menu-button"></img>
+        <img class="btn-hamburguer-menu" src="images/btn-close-menu.png" onclick="toggleMenu()" alt="menu-button">
         <ul class="nav-sites">
             <li class="li-home"><a href="index.html">Home</a></li>
             <li class="li-discover"><a href="discover.html">Discover</a></li>
@@ -30,17 +30,17 @@
             <h3>Join us!</h3>
             <form id="join-form" method="get" action="thankyou.html">
                 <div id="form_message"></div>
-                <label for="first_name">First name</label></br>
-                <input type="text" id="first_name" name="first_name" required></br>
-                <label for="last_name">Last name</label></br>
-                <input type="text" id="last_name" name="last_name" required></br>
-                <label for="position">Position</label></br>
-                <input type="text" id="position" name="position" pattern="[a-zA-Z\-\\\s]{7,}"></br>
-                <label for="email">Email address</label></br>
+                <label for="first_name">First name</label><br>
+                <input type="text" id="first_name" name="first_name" required><br>
+                <label for="last_name">Last name</label><br>
+                <input type="text" id="last_name" name="last_name" required><br>
+                <label for="position">Position</label><br>
+                <input type="text" id="position" name="position" pattern="[a-zA-Z\-\\\s]{7,}"><br>
+                <label for="email">Email address</label><br>
                 <input type="email" id="email_address" name="email_address" pattern="[a-zA-Z0-9._%+-]+@"
-                    placeholder="example@site.com" required></br>
-                <label for="mobile_phone_number">Mobile Phone Number</label></br>
-                <input type="tel" id="mobile_phone_number" name="mobile_phone_number" required></br>
+                    placeholder="example@site.com" required><br>
+                <label for="mobile_phone_number">Mobile Phone Number</label><br>
+                <input type="tel" id="mobile_phone_number" name="mobile_phone_number" required><br>
                 <fieldset id="fieldset_membership" name="fieldset_membership" class="radio-membership">
                     <legend>Membership level</legend>
                     <div>
@@ -60,13 +60,13 @@
                         <label for="gold_membership">Gold Membership</label>
                     </div>
                 </fieldset>
-                </br>
-                <label for="business_organization_description">Business organization's description</label></br>
+                <br>
+                <label for="business_organization_description">Business organization's description</label><br>
                 <textarea form="join-form" id="business_organization_description"
                     name="business_organization_description" rows="5" placeholder="My company is ..."
-                    required></textarea></br>
+                    required></textarea><br>
                 <label for="submit">Submit</label>
-                <input type="submit" id="submit" name="submit" onclick="setTimestamp()"></br>
+                <input type="submit" id="submit" name="submit" onclick="setTimestamp()"><br>
                 <input type="hidden" id="timestamp" name="timestamp">
             </form>
         </section>
@@ -80,7 +80,7 @@
     </main>
     <footer>
         <p>Thank you for supporting this endeavor!</p>
-        <img class="img-footer" src="images/footer.jpg" />
+        <img class="img-footer" src="images/footer.jpg" >
         <p id="p_copyright_and_information">&copy;2023. Valparaiso Chamber of Commerce
         </p>
         <p id="lastModified">
