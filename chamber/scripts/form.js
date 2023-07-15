@@ -39,7 +39,3 @@ function setTimestamp() {
     const timestamp = document.getElementById('timestamp')
     timestamp.value = new Date()
 }
-
-
-
-updateLastModifiedFooter()
