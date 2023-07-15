@@ -3,57 +3,57 @@
     {
       "name": "Banco Santander",
       "address": "Av. San Martín 555 Local 35-36, Valparaiso",
-      "phone number": "+56965898545",
-      "website URL": "https://banco.santander.cl/",
+      "phone": "+56965898545",
+      "websiteURL": "https://banco.santander.cl/",
       "imageFileName": "",
       "membershipLevel": "Gold"
     },
     {
       "name": "Banco Estado",
       "address": "Avenida Libertador Bernardo O'Higgins N° 1111, Valparaiso",
-      "phone number": "+56956585951",
-      "website URL": "https://www.bancoestado.cl/",
-      "image": "",
+      "phone": "+56956585951",
+      "websiteURL": "https://www.bancoestado.cl/",
+      "imageFileName": "",
       "membershipLevel": "Silver"
     },
     {
       "name": "Banco ITAU",
       "address": "Avenida Pedro de Valdivia 1211, Valparaiso",
-      "phone number": "+56925248745",
-      "website URL": "https://banco.itau.cl/",
-      "image": "",
+      "phone": "+56925248745",
+      "websiteURL": "https://banco.itau.cl/",
+      "imageFileName": "",
       "membershipLevel": "Gold"
     },
     {
       "name": "Banco Falabella",
       "address": "Avenida San Diego 5455, Valparaiso",
-      "phone number": "+56936323956",
-      "website URL": "https://www.bancofalabella.cl/",
-      "image": "",
+      "phone": "+56936323956",
+      "websiteURL": "https://www.bancofalabella.cl/",
+      "imageFileName": "",
       "membershipLevel": "NP"
     },
     {
       "name": "Banco de Chile",
       "address": "Avenida Costanera 4498, Valparaiso",
-      "phone number": "+5693332363",
-      "website URL": "https://portales.bancochile.cl/",
-      "image": "",
+      "phone": "+5693332363",
+      "websiteURL": "https://portales.bancochile.cl/",
+      "imageFileName": "",
       "membershipLevel": "Bronze"
     },
     {
       "name": "AFP Modelo",
       "address": "Avenida Las Castañas 8988, Valparaiso",
-      "phone number": "+56936878745",
-      "website URL": "https://nueva.afpmodelo.cl/",
-      "image": "",
+      "phone": "+56936878745",
+      "websiteURL": "https://nueva.afpmodelo.cl/",
+      "imageFileName": "",
       "membershipLevel": "Gold"
     },
     {
       "name": "AFP Cuprum",
       "address": "Avenida Portugales 3423, Valparaiso",
-      "phone number": "+56999898962",
-      "website URL": "https://www6.cuprum.cl/",
-      "image": "",
+      "phone": "+56999898962",
+      "websiteURL": "https://www6.cuprum.cl/",
+      "imageFileName": "",
       "membershipLevel": "Silver"
     }
   ]
