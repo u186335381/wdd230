@@ -33,3 +33,9 @@ function updateMembershipLevel(e) {
         }
     })
 }
+
+
+function setTimestamp() {
+    const timestamp = document.getElementById('timestamp')
+    timestamp.value = new Date()
+}

@@ -27,18 +27,19 @@
     </nav>
     <main class="join-main-content">
         <section class="join-form-section">
+            <h3>Join us!</h3>
             <form id="join-form" method="get" action="thankyou.html">
                 <div id="form_message"></div>
-                <label for="first_name">First name</label>
+                <label for="first_name">First name</label></br>
                 <input type="text" id="first_name" name="first_name" required></br>
-                <label for="last_name">Last name</label>
-                <input type="text" id="first_name" name="first_name" required></br>
-                <label for="position">Position</label>
+                <label for="last_name">Last name</label></br>
+                <input type="text" id="last_name" name="last_name" required></br>
+                <label for="position">Position</label></br>
                 <input type="text" id="position" name="position" pattern="[a-zA-Z\-\\\s]{7,}"></br>
-                <label for="email">Email address</label>
+                <label for="email">Email address</label></br>
                 <input type="email" id="email_address" name="email_address" pattern="[a-zA-Z0-9._%+-]+@"
-                    placeholder="example@domain.com" required></br>
-                <label for="mobile_phone_number">Mobile Phone Number</label>
+                    placeholder="example@site.com" required></br>
+                <label for="mobile_phone_number">Mobile Phone Number</label></br>
                 <input type="tel" id="mobile_phone_number" name="mobile_phone_number" required></br>
                 <fieldset id="fieldset_membership" name="fieldset_membership" class="radio-membership">
                     <legend>Membership level</legend>
@@ -60,12 +61,12 @@
                     </div>
                 </fieldset>
                 </br>
-                <label for="business_organization_description">Business organization's description</label>
+                <label for="business_organization_description">Business organization's description</label></br>
                 <textarea form="join-form" id="business_organization_description"
-                    name="business_organization_description" rows="5" cols="33" placeholder="My company is ..."
+                    name="business_organization_description" rows="5" placeholder="My company is ..."
                     required></textarea></br>
                 <label for="submit">Submit</label>
-                <input type="submit" id="submit" name="submit"></br>
+                <input type="submit" id="submit" name="submit" onclick="setTimestamp()"></br>
                 <input type="hidden" id="timestamp" name="timestamp">
             </form>
         </section>

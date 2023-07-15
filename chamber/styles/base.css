@@ -112,12 +112,14 @@ body {
     margin: 10px;
 }
 
-
-
 h2 {
     text-align: center;
 }
 
+
+label {
+    margin-bottom: 50px;
+}
 
 .join-main-content {
     display: grid;
@@ -128,12 +130,54 @@ h2 {
 .join-form-section {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    margin: auto;
 }
 
 
 .join-description-section {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    margin-left: 10%;
+}
+
+#first_name {
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+#last_name {
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+#position {
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+#email_address {
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+#mobile_phone_number {
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+#business_organization_description {
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+.join-description-section {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-left: 10%;
+}
+
+.radio-membership {
+    width: 100px;
 }
 
 
@@ -200,4 +244,53 @@ h2 {
         width: 50%;
     }
 
+    #first_name {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    #last_name {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    #position {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    #email_address {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    #mobile_phone_number {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    #business_organization_description {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .join-description-section {
+        margin: 9%;
+    }
+
+    .radio-membership {
+        width: 200px;
+    }
+
+    .join-main-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .join-form-section {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin: auto;
+    }
 }
