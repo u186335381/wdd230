@@ -7,7 +7,7 @@ async function getLinks() {
 function displayLinks(members) {
     const article = document.querySelector(".article-grid")
     article.innerHTML = members.members.map(member => `<section>
-        <img src="${member.imageFileName}" alt="">
+        <img src="${member.imageFileName}" alt="Company ${member.name}" style="width: 100%;">
         <h3>${member.name}</h3>
         <p>${member.address}</p>
         <p>${member.phone}</p>
