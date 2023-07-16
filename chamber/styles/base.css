@@ -182,8 +182,9 @@ label {
 
 .members-section {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
-    background-color: #eee;
+    padding: 1rem;
+    background-color: #d3e0e5;
+    text-align: center;
 }
 
 .article-grid img {
@@ -214,4 +215,11 @@ label {
 
 .article-list img {
     display: none;
+}
+
+
+.toggle-button {
+    border: 8px solid rgb(117, 177, 192);
+    background-color: rgb(175, 211, 215);
+    font-size: 20px;
 }

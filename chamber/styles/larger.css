@@ -110,4 +110,17 @@
         margin: auto;
     }
 
+    .members-section {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        background-color: #d5efc8;
+        text-align: center;
+    }
+
+    .toggle-button {
+        border: 8px solid rgb(83, 187, 83);
+        background-color: rgb(146, 204, 146);
+        font-size: 25px;
+    }
+
 }
