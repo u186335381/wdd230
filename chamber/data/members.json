@@ -2,7 +2,7 @@
   "members": [
     {
       "name": "Banco Santander",
-      "address": "Av. San Martín 555 Local 35-36, Valparaiso",
+      "address": "Av. San Martín 555, Valparaiso",
       "phone": "+56965898545",
       "websiteURL": "https://banco.santander.cl",
       "imageFileName": "member-santander.png",
@@ -18,7 +18,7 @@
     },
     {
       "name": "Banco ITAU",
-      "address": "Avenida Pedro de Valdivia 1211, Valparaiso",
+      "address": "Avenida Ahumada 1211, Valparaiso",
       "phone": "+56925248745",
       "websiteURL": "https://banco.itau.cl",
       "imageFileName": "member-itau.png",
@@ -42,7 +42,7 @@
     },
     {
       "name": "AFP Modelo",
-      "address": "Avenida Las Castañas 8988, Valparaiso",
+      "address": "Avenida Castañas 8988, Valparaiso",
       "phone": "+56936878745",
       "websiteURL": "https://nueva.afpmodelo.cl",
       "imageFileName": "member-modelo.png",
