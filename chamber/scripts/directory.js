@@ -26,7 +26,7 @@ function displayLinks(members) {
         <p>${member.address}</p>
         <p>${member.phone}</p>
         <p>${member.membershipLevel} Membership</p>
-        <a href="${member.websiteURL}">Company's website</a></section>`).join('')
+        <a href="${member.websiteURL}">View</a></section>`).join('')
 }
 
 getLinks()

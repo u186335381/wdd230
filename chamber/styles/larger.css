@@ -27,6 +27,8 @@
 
     .btn-hamburguer-menu {
         visibility: hidden;
+        width: 55px;
+        height: 55px;
     }
 
     .nav-sites {
@@ -34,6 +36,10 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
+    }
+
+    li {
+        margin: 8px;
     }
 
     .li-home {
@@ -87,7 +93,7 @@
 
     #business_organization_description {
         width: 200px;
-        margin-bottom: 20px;
+        margin: 20px;
     }
 
     .join-description-section {
@@ -115,6 +121,7 @@
         padding: 1rem;
         background-color: #d5efc8;
         text-align: center;
+        margin: 8px;
     }
 
     .toggle-button {
@@ -122,6 +129,7 @@
         background-color: rgb(146, 204, 146);
         font-size: 20px;
         height: 44px;
+        margin: 8px;
     }
 
     .btn-submit-form {
@@ -131,10 +139,17 @@
 
     #join-form>input {
         height: 44px;
+        margin: 20px;
     }
 
     .join-radio-btn {
         height: 50px;
+        margin: 8px;
+    }
+
+    section>a {
+        font-size: 44px;
+        margin: 10px;
     }
 
 }
