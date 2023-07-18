@@ -11,10 +11,10 @@ const toggleMenu = () => {
     const menuButton = document.querySelector(".btn-hamburguer-menu")
     if (menuElements.style.visibility === 'hidden') {
         menuElements.style.visibility = 'visible'
-        menuButton.src = "images/btn-close-menu.png"
+        menuButton.src = "images/btn-close-menu.jpg"
     } else {
         menuElements.style.visibility = 'hidden'
-        menuButton.src = "images/btn-open-menu.png"
+        menuButton.src = "images/btn-open-menu.jpg"
     }
 }
 
