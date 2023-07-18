@@ -202,7 +202,7 @@ label {
 .article-list {
     display: flex;
     flex-direction: column;
-    font-size: 10px;
+    font-size: 12px;
     min-height: 384px;
 }
 
@@ -222,4 +222,17 @@ label {
     border: 8px solid rgb(117, 177, 192);
     background-color: rgb(175, 211, 215);
     font-size: 15px;
+    height: 44px;
+}
+
+section>a {
+    font-size: 44px;
+}
+
+#join-form>input {
+    height: 44px;
+}
+
+.join-radio-btn {
+    height: 49px;
 }

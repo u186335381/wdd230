@@ -5,7 +5,7 @@
     }
 
     .activities {
-        font-size: 60%;
+        font-size: 12px;
     }
 
     .navigation ol {
@@ -54,8 +54,8 @@
     }
 
     .btn-dark-mode {
-        width: 40px;
-        height: 40px;
+        width: 44px;
+        height: 44px;
     }
 
     .nav-sites {
@@ -67,7 +67,7 @@
 
 @media (min-width: 920px) {
     .activities {
-        font-size: 100%;
+        font-size: 16px;
     }
 
 }

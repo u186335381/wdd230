@@ -121,6 +121,20 @@
         border: 8px solid rgb(83, 187, 83);
         background-color: rgb(146, 204, 146);
         font-size: 20px;
+        height: 44px;
+    }
+
+    .btn-submit-form {
+        font-size: 12px;
+        ;
+    }
+
+    #join-form>input {
+        height: 44px;
+    }
+
+    .join-radio-btn {
+        height: 50px;
     }
 
 }

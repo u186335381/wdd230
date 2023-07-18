@@ -10,7 +10,8 @@
         content="Join the Valparaido Chamber of commerce using this form to send us your information.">
     <meta property="og:title" content="Join the Valparaiso Chamber of commerce">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://u186335381.github.io/wdd230/chamber/images/meta-og-image-preview-join.png">
+    <meta property="og:image"
+        content="https://u186335381.github.io/wdd230/chamber/images/meta-og-image-preview-join.png">
     <meta property="og:url" content="https://u186335381.github.io/wdd230/chamber/directory.html">
     <title>Join the Valparaiso Chamber of commerce</title>
     <link href="styles/base.css" rel="stylesheet">
@@ -23,7 +24,7 @@
         <h1 class="main-header">Join the Valparaiso Chamber of commerce</h1>
     </header>
     <nav>
-        <img class="btn-hamburguer-menu" src="images/btn-close-menu.png" onclick="toggleMenu()" alt="menu-button">
+        <img class="btn-hamburguer-menu" src="images/btn-close-menu.png" onclick="toggleMenu()" alt="Menu button">
         <ul class="nav-sites">
             <li class="li-home"><a href="index.html">Home</a></li>
             <li class="li-discover"><a href="discover.html">Discover</a></li>
@@ -43,8 +44,7 @@
                 <label for="position">Position</label><br>
                 <input type="text" id="position" name="position" pattern="[a-zA-Z\-\\\s]{7,}"><br>
                 <label for="email_address">Email address</label><br>
-                <input type="email" id="email_address" name="email_address" pattern="[a-zA-Z0-9._%+-]+@"
-                    placeholder="example@site.com" required><br>
+                <input type="email" id="email_address" name="email_address" placeholder="example@site.com" required><br>
                 <label for="mobile_phone_number">Mobile Phone Number</label><br>
                 <input type="tel" id="mobile_phone_number" name="mobile_phone_number" required><br>
                 <label for="business_name">Business / Organization's name</label><br>
@@ -52,19 +52,23 @@
                 <fieldset id="fieldset_membership" name="fieldset_membership" class="radio-membership">
                     <legend>Membership level</legend>
                     <div>
-                        <input type="radio" id="np_membership" name="np_membership" value="NP Membership" checked>
+                        <input class="join-radio-btn" type="radio" id="np_membership" name="np_membership"
+                            value="NP Membership" checked>
                         <label for="np_membership">NP Membership</label>
                     </div>
                     <div>
-                        <input type="radio" id="bronze_membership" name="bronze_membership" value="Bronze Membership">
+                        <input class="join-radio-btn" type="radio" id="bronze_membership" name="bronze_membership"
+                            value="Bronze Membership">
                         <label for="bronze_membership">Bronze Membership</label>
                     </div>
                     <div>
-                        <input type="radio" id="silver_membership" name="silver_membership" value="Silver Membership">
+                        <input class="join-radio-btn" type="radio" id="silver_membership" name="silver_membership"
+                            value="Silver Membership">
                         <label for="silver_membership">Silver Membership</label>
                     </div>
                     <div>
-                        <input type="radio" id="gold_membership" name="gold_membership" value="Gold Membership">
+                        <input class="join-radio-btn" type="radio" id="gold_membership" name="gold_membership"
+                            value="Gold Membership">
                         <label for="gold_membership">Gold Membership</label>
                     </div>
                 </fieldset>
@@ -72,7 +76,7 @@
                 <label for="business_organization_description">Business organization's description</label><br>
                 <textarea form="join-form" id="business_organization_description"
                     name="business_organization_description" rows="5" placeholder="My company is ..."></textarea><br>
-                <label for="submit">Submit</label>
+                <label class="btn-submit-form" for="submit">Submit</label>
                 <input type="submit" id="submit" name="submit" onclick="setTimestamp()"><br>
                 <input type="hidden" id="timestamp" name="timestamp">
             </form>
@@ -87,7 +91,7 @@
     </main>
     <footer>
         <p>Thank you for supporting this endeavor!</p>
-        <img class="img-footer" src="images/footer.jpg" alt="world-image">
+        <img class="img-footer" src="images/footer.jpg" alt="Earth globe">
         <p id="p_copyright_and_information">&copy;2023. Valparaiso Chamber of Commerce
         </p>
         <p id="lastModified">
