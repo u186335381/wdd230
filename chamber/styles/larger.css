@@ -4,7 +4,6 @@
     body {
         background-color: rgb(112, 213, 112);
         font-family: 'Petit Formal Script', 'Lora';
-        margin: 40px;
         font-weight: bold;
     }
 
@@ -17,7 +16,7 @@
     }
 
     .img-landing {
-        width: 98%;
+        width: 100%;
     }
 
 
@@ -29,6 +28,7 @@
         visibility: hidden;
         width: 55px;
         height: 55px;
+        margin-left: 20px;
     }
 
     .nav-sites {
@@ -93,7 +93,7 @@
 
     #business_organization_description {
         width: 200px;
-        margin: 20px 20px 20px 0px;
+        margin: 20px 20px 20px 20px;
     }
 
     .join-description-section {
@@ -102,6 +102,7 @@
 
     .radio-membership {
         width: 200px;
+        margin-left: 12px;
     }
 
     .join-main-content {
@@ -133,13 +134,21 @@
     }
 
     .btn-submit-form {
-        font-size: 12px;
-        ;
+        font-size: 16px;
     }
 
     #join-form>input {
         height: 44px;
-        margin: 20px 20px 20px 0px;
+        width: 200px;
+        margin: 20px 20px 20px 20px;
+    }
+
+    h2 {
+        margin-left: 20px;
+    }
+
+    label {
+        margin-left: 20px;
     }
 
     .join-radio-btn {
@@ -152,9 +161,21 @@
         margin: 10px;
     }
 
+    section {
+        margin: 50px;
+    }
+
+    img {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        margin: 50px;
+    }
+
     .banner-invitation-to-meet {
-        width: 98%;
-        margin: 10px;
+        width: 100%;
     }
 
     .banner-invitation-to-meet>img {
@@ -165,4 +186,11 @@
         width: 50%;
     }
 
+    .img-company-spotlight {
+        width: 30%;
+    }
+
+    header {
+        margin: 10px;
+    }
 }

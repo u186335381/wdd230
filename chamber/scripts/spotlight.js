@@ -32,7 +32,7 @@ function displayLinks(members) {
     randomMembers = getRandomIndexFromArray(members.members)
     const article = document.querySelector(".section-spotlight")
     article.innerHTML = randomMembers.map(member => `<section class="section-spotlight"><h2>Spotlight</h2>
-        <img src="images/${member.imageFileName}" alt="Offices of company ${member.name}">
+        <img class="img-company-spotlight" src="images/${member.imageFileName}" alt="Offices of company ${member.name}">
         <h2>${member.name}</h2>
         <p>${member.address}</p>
         <p>${member.phone}</p>
