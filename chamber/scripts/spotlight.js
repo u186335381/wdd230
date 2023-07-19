@@ -1,3 +1,22 @@
+async function getWeather() {
+    const body = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Valparaiso&appid=4a8dfd912f7300f5b84fbba2ec797ee8&units=imperial')
+    const data = await body.json()
+    const element = document.querySelector(".weather")
+    element.textContent = `${data.main.temp}°°F - ${data.weather[0].description}`
+    const imgWeather = document.querySelector('.weather-icon')
+    imgWeather.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`
+}
+
+function validateBannerVisibility() {
+    const banner = document.querySelector(".banner-invitation-to-meet")
+    if ([1, 2, 3].includes(new Date().getDay())) {
+        const banner = document.querySelector(".banner-invitation-to-meet")
+        banner.innerHTML = `<div class="banner-invitation-to-meet" role="banner"><img src="images/banner-invitation-to-chamber-meet.jpg" alt="Invitation to meet at the chamber"></div>`
+    } else {
+        banner.innerHTML = `<div class="banner-invitation-to-meet" role="banner"></div>`
+    }
+}
+
 async function getSpotlightMembers() {
     const body = await fetch('https://u186335381.github.io/wdd230/chamber/data/members.json')
     const data = await body.json()
@@ -35,4 +54,6 @@ function getRandomIndexFromArray(array) {
     return randomMembers
 }
 
+validateBannerVisibility()
 getSpotlightMembers()
+getWeather()

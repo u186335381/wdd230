@@ -247,3 +247,12 @@ section>a {
     height: 49px;
     margin: 8px;
 }
+
+.banner-invitation-to-meet {
+    width: 100%;
+    margin: 10px;
+}
+
+.banner-invitation-to-meet > img {
+    width: 100%;
+}
