@@ -93,7 +93,7 @@
 
     #business_organization_description {
         width: 200px;
-        margin: 20px;
+        margin: 20px 20px 20px 0px;
     }
 
     .join-description-section {
@@ -139,7 +139,7 @@
 
     #join-form>input {
         height: 44px;
-        margin: 20px;
+        margin: 20px 20px 20px 0px;
     }
 
     .join-radio-btn {
@@ -153,7 +153,7 @@
     }
 
     .banner-invitation-to-meet {
-        width: 100%;
+        width: 98%;
         margin: 10px;
     }
 

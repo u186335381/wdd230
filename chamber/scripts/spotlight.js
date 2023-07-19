@@ -1,10 +1,15 @@
 async function getWeather() {
     const body = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Valparaiso&appid=4a8dfd912f7300f5b84fbba2ec797ee8&units=imperial')
     const data = await body.json()
-    const element = document.querySelector(".weather")
-    element.textContent = `${data.main.temp}°°F - ${data.weather[0].description}`
-    const imgWeather = document.querySelector('.weather-icon')
-    imgWeather.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`
+    const bodyforecast = await fetch('https://api.openweathermap.org/data/2.5/forecast?q=Valparaiso&appid=4a8dfd912f7300f5b84fbba2ec797ee8&units=imperial')
+    const dataForecast = await bodyforecast.json()
+    const forecast = dataForecast.list[18]
+    const element = document.querySelector(".weather-temperature")
+    element.innerHTML = `<div class="weather-temperature">
+    <img class="weather-icon" alt="Weather symbol" src="https://openweathermap.org/img/wn/${data.weather[0].icon}.png">
+    <span>Today ${data.main.temp}°°F - ${data.weather[0].description}.</span><br>
+    <img class="weather-icon" alt="Weather symbol" src="https://openweathermap.org/img/wn/${forecast.weather[0].icon}.png">
+    <span>Forecast for date ${forecast.dt_txt}: ${forecast.main.temp}°F - ${forecast.weather[0].description}.</span></div>`
 }
 
 function validateBannerVisibility() {
